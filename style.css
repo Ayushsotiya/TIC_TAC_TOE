@@ -8,7 +8,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: #FF3CAC;
-background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,7 +36,6 @@ h2{
     padding: 0.5rem 3rem;
 }
 .container{
-
     width: 50%;
     max-width: 20rem;
     display: grid;
@@ -72,17 +71,57 @@ h2{
 
 .reset{
     color:white;
-    position: absolute;
-    bottom: 3rem;
     background-color: rgba(233, 227, 227, 0.514);
     cursor: pointer;
     padding: 0.5rem 2rem;
     border-radius: 1rem;
     border: none;
     color: #ff3caac5;
-    font-weight:bold;
+    font-weight:bolder;
     font-size: 1rem;
 }
 .win{
     background-color: rgba(53, 236, 90, 0.438);
+}
+@media screen and (max-width: 440px) and (min-width:345px) {
+    .container{
+        max-width: 15rem;
+    }
+    .gameinfo{
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 344px) and (min-width:248px) {
+    .container{
+        max-width: 12rem;
+        padding:15px;
+    }
+    .gameinfo{
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 247px)  {
+    .container{
+        max-width: 10rem;
+        padding:15px;
+    }
+    .gameinfo{
+        font-size: 0.7rem;
+    }
+    h2{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .reset{
+        font-size: 0.8rem;
+        padding: 0.3rem 1.5rem;
+    }
 }
