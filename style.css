@@ -15,7 +15,6 @@ body{
     justify-content: center;
     gap: 2rem;
     place-items: center;
-
 }
 .gameinfo{
     color: #3892be;
@@ -146,10 +145,12 @@ a{
     .gameinfo{
         font-size: 0.6rem;
     }
+    
     h2{
         font-size: 0.6rem;
         font-weight: bold;
         padding: 10;
+        margin-bottom: 5px;
     }
     .reset{
         font-size: 0.6rem;
