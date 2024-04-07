@@ -113,7 +113,7 @@ a{
     font-weight: bolder;
     color: rgba(186, 89, 231, 0.808);
 }
-@media screen and (max-width: 440px) and (min-width:345px) {
+@media screen and (max-width: 440px) and (min-width:361px) {
     .container{
         max-width: 15rem;
     }
@@ -125,7 +125,7 @@ a{
         font-weight: bold;
     }
 }
-@media screen and (max-width: 344px) and (min-width:248px) {
+@media screen and (max-width: 360px) and (min-width:250px) {
     .container{
         max-width: 12rem;
         padding:15px;
@@ -138,10 +138,10 @@ a{
         font-weight: bold;
     }
 }
-@media screen and (max-width: 255px)  {
+@media screen and (max-width: 249px)  {
     .container{
-        max-width: 8rem;
-        padding:15px;
+        max-width: 7.5rem;
+        padding:10px;
     }
     .gameinfo{
         font-size: 0.6rem;
@@ -152,7 +152,7 @@ a{
         padding: 10;
     }
     .reset{
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         padding: 0.3rem 1.5rem;
         margin-bottom: 0%;
     }
@@ -161,5 +161,8 @@ a{
     }
     .wrapper{
         gap: 6px;
+    }
+    .Developed{
+        margin-bottom: 0%;
     }
 }
