@@ -101,11 +101,10 @@ function checkGameOver() {
                 boxes[position[2]].classList.add("win");
         }
     });
-
- if(answer !== ""){
-        gameInfo.innerText = `Winner Player - ${ans}`;
-        return;
-    }
+if(answer!==""){
+    playerinfo.innerText = `${answer} Won the game`;
+    return;
+}
 
     let emptyBox = 0;
     gameGrid.forEach((box) => {
