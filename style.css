@@ -3,6 +3,7 @@ body{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    overflow-y:hidden;
 }
 .wrapper{
     width: 100vw;
@@ -14,7 +15,7 @@ body{
     justify-content: center;
     gap: 2rem;
     place-items: center;
-    overflow-y:hidden;
+
 }
 .gameinfo{
     color: #3892be;
