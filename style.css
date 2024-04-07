@@ -150,15 +150,18 @@ a{
         font-size: 0.6rem;
         font-weight: bold;
         padding: 10;
-        margin-bottom: 5px;
+        margin-bottom: 2px;
+        margin-top: 5px;
     }
     .reset{
         font-size: 0.6rem;
         padding: 0.3rem 1.5rem;
-        margin-bottom: 0%;
     }
     .Developed{
         font-size: 0.8rem;
+    }
+    .Profilecontainer{
+        margin-top: 2px;
     }
     .wrapper{
         gap: 6px;
