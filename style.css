@@ -160,11 +160,9 @@ a{
     .Developed{
         font-size: 0.8rem;
     }
-    .Profilecontainer{
-        margin-top: 2px;
-    }
+    
     .wrapper{
-        gap: 6px;
+        gap: 4px;
     }
     .Developed{
         margin-bottom: 0%;
